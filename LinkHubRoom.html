@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>LinkHub</title>
+        <link rel="stylesheet"
+href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script
+src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script
+src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script
+src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script
+src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script
+src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="LinkHub.js"></script>
+<link rel="stylesheet" type="tesxt/css" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <button id="logout" onclick="logout();" class="glyphicon glyphicon-log-out btn btn-danger">Logout</button>
+            <center>
+                <h1l class="header">
+                LinkHub
+                <sup>
+                    <img src="Envelope.jpeg">
+                </sup>
+                </h1>
+                <h3 id="user name" class="color white"></h3>
+
+                <div class="form-group input div room page">
+                    <label>#Adicionar Sala:</label>
+                    <input type="text" id="room name" class="form-control" placeholder="#Nome da Sala">
+                </div>
+
+                <button onclick="addRoom();" class="btn btn-success">#Adicionar Sala</button>
+
+                <h3 class="color white">#SALASTRENDING</h3>
+                <div id="output"></div>
+            </center>
+            </div>
+            <script sre="LinkHubRoom.js"></script>  
+    </body>
+</html>
